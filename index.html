@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <style>
+        *{
+          padding:0;
+          margin:0;
+          box-sizing: border-box;
+          font-family: 'Rubik', sans-serif;
+        }
+        body{
+          height:90vh;
+          margin:2em;
+        }
+        .container{
+          height:55vh;
+          margin:2vw;
+          justify-content: center;
+          display: grid;
+          grid-template-columns:repeat(3,330px);
+          grid-gap:5px;
+      
+   
+        }
+        .header{
+          background:red;
+         }
+         .header h1{
+           text-align: center;
+          }
+          .header p{
+            padding:1rem;
+            color:#ffff;
+            line-height:1.5rem;
+            font-size:1rem;
+            max-width:330px;
+            text-align: center;
+           }
+        .header img{
+          border-radius: 100%;
+          width:38%;
+          margin-left:5.5rem;
+          padding:1rem;
+  
+           }
+        .sidebar{
+          background:blue;
+        }
+        .sidebar h1{
+          text-align: center;
+        }
+        .sidebar p{
+          padding:1rem;
+          font-size:1rem;
+          color:#ffff;
+          line-height:1.5rem;
+          font-size:1rem;
+          max-width:330px;
+          text-align: center;
+
+         }
+        .sidebar img{
+          border-radius: 100%;
+          width:38%;
+          margin-left:5.5rem;
+          padding:1rem;
+        }
+        .footer{
+          background:green;
+        }
+        .footer h1{
+          text-align: center;
+        }
+        .footer p{
+          padding:1rem;
+          font-size:1rem;
+          color:#ffff;
+          line-height:1.5rem;
+          max-width:330px;
+          text-align: center;
+
+          
+        }
+         .footer img{
+          border-radius: 100%;
+          width:38%;
+          margin-left:5.5rem;
+          padding:1rem;
+        }
+ @media(max-width:1024px){
+   .container{
+      display: grid;
+      grid-template-columns: repeat(1,280px);
+      flex-wrap:wrap;
+    }
+ }
+          
+   
+        
+        
+      </style>
+      <div class = "container">
+      <div class = "header">
+        <img src = "shoe.jpg" alt="shoe">
+        <h1>Bata Shoe</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nisi aut repellat, error ipsa quae enim fugit iste aspernatur ab laboriosam ipsam doloremque nostrum consequatur quidem impedit unde libero quos.</p>
+      </div>
+      <div class = "sidebar">
+        <img src = "jeans.jpg" alt="nature">
+        <h1>Gbading jeans</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt provident tempora pariatur commodi quae sunt? Rerum beatae quas nobis voluptas id fugiat atque recusandae quaerat molestias. Quisquam aspernatur accusamus modi?</p>
+      </div>
+      <div class = "footer">
+        <img src = "jacket.jpg" alt="jacket">
+        <h1>Warm Jacket</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi fugiat dicta repellat voluptas, neque, a laudantium deleniti similique quod ut expedita adipisci inventore, officiis recusandae aliquid modi natus delectus et?</p>
+      </div>
+
+ 
+       </div>
+    
+   
+   
+   
+   
+    
+</body>
+</html>
